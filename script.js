@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             galleryImages.forEach(function(image) {
                 if (category === 'all' || image.classList.contains(category)) {
-                    image.classList.remove('hidden');
+                    image.style.display = "block";
                 } else {
-                    image.classList.add('hidden');
+                    image.style.display = "none";
                 }
             });
         });
