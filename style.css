@@ -1,0 +1,23 @@
+#image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.gallery-image.hidden {
+    display: none;
+}
+
+h1{
+    color: #333;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
